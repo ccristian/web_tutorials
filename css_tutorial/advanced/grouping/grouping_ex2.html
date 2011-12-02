@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+p {
+	color: green;
+	text-align: center;
+}
+
+.marked {
+	background-color: red;
+}
+
+.marked p {
+	color: white;
+}
+</style>
+</head>
+
+<body>
+	<p>This is a blue, center-aligned paragraph.</p>
+	<div class="marked">
+		<p>This p element should not be green because it is nested !!!!.</p>
+	</div>
+	<p>p elements inside a "marked" classed element keeps the alignment
+		style, but has a different text color.</p>
+</body>
+</html>
+
